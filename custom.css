@@ -1,0 +1,10 @@
+/*自动显示csdn文章全部内容，并隐藏阅读更多按钮*/
+#article_content {height: auto !important;}
+.hide-article-box.text-center {display: none !important;}
+
+/*csdn 广告*/
+.baidu_pl #article_content {height: auto !important;}
+.hide-article-box.text-center {display: none !important;}
+.recommend-ad-box {display: none !important;}
+div[id^=dmp_ad] {display: none !important;}
+#asideFooter {display: none !important;}

@@ -1,0 +1,12 @@
+{
+   "content_scripts": [
+   {
+      "css": ["custom.css"],
+      "matches": [ "*://*.csdn.net/*"]
+   }
+   ],
+   "description": "csdn read more",
+   "name": "csdn_read_more",
+   "version": "1.0",
+   "manifest_version": 2
+}
